@@ -1,0 +1,223 @@
+﻿main {
+  padding-bottom: 100px;
+}
+#bread{
+    color:white;
+}
+#bread a{
+    color:white;
+}
+#headerBG {
+    background-image: url('../images/brownies gallery/browniesBG.jpg');
+    background-position-x: right;
+    box-shadow: inset 0 0 0 1280px rgb(42 8 7 / 0.38);
+    height: 400px;
+}
+#browniesRecipe {
+    padding: 0px 100px 0px 100px;
+    font-size: 14pt;
+    line-height: 1.5;
+    position:relative;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.gallery {
+    position: relative;
+    width: 600px;
+    right: 80px;
+}
+#products{
+    width: 400px;
+}
+#products strong, #preparation > h3{
+    color:#734B3B;
+    font-size: 21px;
+}
+#preparation {
+    clear: both;
+}
+
+/* Hide the images by default */
+.bigPhoto {
+    display: none;
+}
+.bigPhoto img{
+    width:600px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #cc625e;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0px;
+    
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgb(255 255 255 / 0.70);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color:  #3d1217;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    direction: ltr;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px 0px;
+    color: #3d1217;
+    font-weight: 500;
+    position: relative;
+    bottom: 56px;
+}
+
+
+.row {
+    position: relative;
+    bottom: 56px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* five columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+    
+}
+
+/* Add a transparency effect for thumnbail images */
+.smallPhoto {
+    opacity: 0.6;
+    height: 67px;
+    object-fit:cover;
+}
+
+.active, .smallPhoto:hover {
+    opacity: 1;     
+}
+.active {
+    box-shadow: rgb(33 6 6 / 0.50) 0px 2px 6px;
+}
+
+.browniesicons {
+    display: inline-block;
+    width: auto;
+    font-size: 14pt;
+}
+#infobrownies {
+    background-color: #734B3B;
+    color:white;
+   
+}
+#infobrownies div{
+   
+    padding:37px;
+    
+}
+.galleryNproducts>div {
+    display:inline-block;
+    float: right;
+    
+}
+.h1, .h2{
+    color:#ffffffe3;
+    position:relative;
+    top:300px;
+    right:100px;
+}
+.h2{
+    font-family:Nehama;
+    font-size:26pt;
+}
+
+#rating{
+    position:relative;
+    right:33%;
+    top:10px;
+}    
+#rating input{
+    display:none;
+}
+#rating label{
+    display:inline-block;
+    cursor:pointer;
+    width:30px;
+    background: #fff;
+}
+    #rating label:before {
+        content: 'star';
+        font-family: 'Material Icons';
+        position: relative;
+        display: block;
+        font-size: 30px;
+        color: #d9a8a6;
+    }
+    #rating label:after {
+        content: 'star';
+        font-family: 'Material Icons';
+        position: absolute;
+        top: 0;
+        display: inline-block;
+        font-size: 30px;
+        color: #CC625E;
+        opacity: 0;
+        transition: .5s;
+        text-shadow: 0 2px 5px rgba(0,0,0,.5);
+    }
+    #rating label:hover:after,
+    #rating label:hover ~ label:after,
+    #rating input:checked ~ label:after {
+        opacity: 1;
+    }
+input[type=checkbox] {
+    accent-color: #CC625E;
+    height:16px;
+    width:16px;
+}
+#rank{
+    position:relative;
+    top:8px;
+    float:right;
+    margin-left:30px;
+}
+#infobrownies .material-icons {
+    position: relative;
+    font-size: 24px;
+    top: 6px;
+}

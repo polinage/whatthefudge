@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>מפת אתר - מה הפאדג'</title>
+    <meta name="description" content="מפת אתר מה הפאדג'" />
+    <meta name="keywords" content="פאדג, שוקולד, מתכונים עם שוקולד, חלב, מריר" />
+    <meta name="author" content="Stav Zipory, Polina Gershman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!--favicon-->
+    <link rel="icon" href="images/general/favicon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="styles/mapStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <nav id="mainnav" aria-label="תפריט ראשי">
+            <a href="index.html"><img id="logo" src="images/general/logo.png" alt="לוגו - מעבר לדף בית" /></a>
+            <ul>
+                <li><a href="index.html">דף הבית</a></li>
+                <li id="chocoacademy">
+                    <a href="#" class="notActive">אקדמיית השוקולד</a>
+                    <ul>
+                        <li><a href="#" class="notActive">הכנת השוקולד</a></li>
+                        <li><a href="#" class="notActive">עצי קקאו</a></li>
+                        <li><a href="#" class="notActive">מקצוע שוקולטייר</a></li>
+                        <li><a href="#" class="notActive">סגולות בריאותיות</a></li>
+                    </ul>
+                </li>
+                <li id="recipes">
+                    <a href="#" class="notActive">מתכונים</a>
+                    <ul>
+                        <li><a href="brownies.html">בראוניז</a></li>
+                        <li><a href="#" class="notActive">עוגות שוקולד</a></li>
+                        <li><a href="#" class="notActive">פרלינים</a></li>
+                        <li><a href="#" class="notActive">סופלה</a></li>
+                    </ul>
+                </li>
+                <li id="chocolatetypes">
+                    <a href="#" class="notActive">סוגי שוקולד</a>
+                    <ul>
+                        <li><a href="milkchoco.html">שוקולד חלב</a></li>
+                        <li><a href="#" class="notActive">שוקולד מריר</a></li>
+                        <li><a href="#" class="notActive">שוקולד לבן</a></li>
+                        <li><a href="#" class="notActive">שוקולד רובי</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav id="bread">
+            <ol>
+                <li><a href="index.html">דף הבית</a></li>
+                <li>מפת אתר</li>
+            </ol>
+        </nav>
+        <div id="mapheaderBG">
+            <h1>מפת אתר</h1>
+        </div>
+    </header>
+    <main>
+        <ul class="mainmap">
+            <li class="academyMap">
+                <h2><a href="#" class="notActive">אקדמיית השוקולד </a></h2>
+                <ul>
+                    <li> <a href="#" class="notActive">הכנת השוקולד </a></li>
+                    <li> <a href="#" class="notActive">עצי קקאו </a></li>
+                    <li> <a href="#" class="notActive"> מקצוע השוקולטייר </a></li>
+                    <li>  <a href="#" class="notActive"> יתרונות בריאותיים </a></li>
+                </ul>
+            </li>
+            <li class="recipesMap">
+                <h2><a href="#" class="notActive">מתכונים </a></h2>
+                <ul>
+                    <li> <a href="brownies.html">בראוניז </a></li>
+                    <li> <a href="#" class="notActive"> עוגת שוקולד </a></li>
+                    <li>  <a href="#" class="notActive"> פרלינים </a></li>
+                    <li>  <a href="#" class="notActive"> סופלה </a></li>
+                </ul>
+            </li>
+            <li class="typesMap">
+                <h2><a href="#" class="notActive">סוגי שוקולד</a></h2>
+                <ul>
+                    <li> <a href="#" class="notActive">שוקולד מריר </a></li>
+                    <li> <a href="milkchoco.html"> שוקולד חלב </a></li>
+                    <li>  <a href="#" class="notActive"> שוקולד לבן </a></li>
+                    <li>  <a href="#" class="notActive"> שוקולד רובי </a></li>
+                </ul>
+            </li>
+        </ul>
+        
+    </main>
+    <footer aria-label="פוטר">
+        <a href="index.html"><img id="footerlogo" src="images/general/logo.png" alt="לוגו - מעבר לדף בית" /></a>
+        <nav id="footernav">
+            <ul class="textfooter">
+                <li id="contactbutton"><a href="contactUs.html">צור קשר</a></li>
+                <li id="sitemapbutton"><a href="sitemap.html" class="currentPage">מפת אתר</a></li>
+                <li id="aboutusbutton"><a href="about.html">אודות</a></li>
+            </ul>
+        </nav>
+
+        <p id="cc">
+            What the FUDGE©  2022
+            אתר השוקולד (הלא) רשמי של ישראל
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿.milkheader {
+    background-image: url('../images/milkchoco/milkheaderbg2.jpg');
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: bottom;
+    height: 400px;
+}
+#bread a{
+    color: black;
+}
+.milkheader h1 {
+    color:#734b3b;
+    position:relative;
+    top:320px;
+}
+
+h3 {
+    color: #734b3b;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+article {
+    margin: 0px 100px;
+    padding: 50px 50px;
+    box-shadow: rgb(0 0 0 / 0.60) 0px 3px 6px;
+    border-radius: 24px;
+    background-color: #907264;
+}
+#profilepic {
+    border-radius: 50%;
+    border: solid 1px lightgrey;
+    float: left;
+}
+.tindericons > p >span {
+     margin-left: 10px;
+     position: relative;
+     top:6px;
+}
+.milkprofile h2 {
+    font-size: 26px;
+    font-weight: 400;
+}
+.milkprofile h2 b {
+    font-weight:bold;
+}
+.milkprofile h2 .material-icons {
+    color:#cc625e;
+}
+.milkprofile > div {
+    font-size: 16px;
+}
+.tindericons {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    color: gray;
+}
+.hobbies p {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: solid 1px grey;
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+    color: gray;
+}
+.summery {
+    clear:both;
+    line-height:1.5;
+}
+
+article > section {
+    margin-bottom: 20px;
+    padding: 50px;
+    box-shadow: rgb(73 54 46 / 0.60) 0px 3px 6px;
+    border-radius: 12px;
+    background-color: white;
+}
+section p {
+    line-height: 1.5;
+}
+.notActive {
+    color: grey;
+    text-decoration: none;
+}

@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>בראוניז - מה הפאדג'</title>
+    <meta name="description" content="מתכון לבראוניז" />
+    <meta name="keywords" content="מתכון, בראוניז, שוקולד" />
+    <meta name="author" content="Stav Zipori, Polina Gershman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/general/favicon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="styles/browniesStyle.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--אייקונים מגוגל-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous" />
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="jScripts/JavaScript2.js"></script>
+
+
+</head>
+<body onload="showSlides(0)">
+    <header>
+        <nav id="mainnav" aria-label="תפריט ראשי">
+            <a href="index.html"><img id="logo" src="images/general/logo.png" alt="לוגו - מעבר לדף בית" /></a>
+            <ul>
+                <li><a href="index.html">דף הבית</a></li>
+                <li id="chocoacademy">
+                    <a href="#" class="notActive">אקדמיית השוקולד</a>
+                    <ul>
+                        <li><a href="#" class="notActive">הכנת השוקולד</a></li>
+                        <li><a href="#" class="notActive">עצי קקאו</a></li>
+                        <li><a href="#" class="notActive">מקצוע שוקולטייר</a></li>
+                        <li><a href="#" class="notActive">סגולות בריאותיות</a></li>
+                    </ul>
+                </li>
+                <li id="recipes">
+                    <a href="#" class="notActive currentPage">מתכונים</a>
+                    <ul>
+                        <li><a href="brownies.html">בראוניז</a></li>
+                        <li><a href="#" class="notActive">עוגות שוקולד</a></li>
+                        <li><a href="#" class="notActive">פרלינים</a></li>
+                        <li><a href="#" class="notActive">סופלה</a></li>
+                    </ul>
+                </li>
+                <li id="chocolatetypes">
+                    <a href="#" class="notActive">סוגי שוקולד</a>
+                    <ul>
+                        <li><a href="milkchoco.html">שוקולד חלב</a></li>
+                        <li><a href="#" class="notActive">שוקולד מריר</a></li>
+                        <li><a href="#" class="notActive">שוקולד לבן</a></li>
+                        <li><a href="#" class="notActive">שוקולד רובי</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav id="bread">
+            <ol>
+                <li>
+                    <a href="index.html">דף הבית</a>
+                </li>
+                <li>מתכונים </li>
+                <li>בראוניז</li>
+            </ol>
+        </nav>
+        <div id="headerBG">
+
+            <h1 class="h1">בראוניז</h1>
+            <h2 class="h2">  מתכון לבראוניז (חומיות) שלא תרצו להפסיק לאכול</h2>
+        </div>
+        
+    </header>
+    <main>
+
+        <br />
+        <article id="browniesRecipe">
+            <section id="infobrownies">
+                <div class="browniesicons"> <span class="material-icons">kitchen</span> <strong>מצרכים: </strong>9 </div>
+                <div class="browniesicons"> <span class="material-icons">timer</span> <strong>זמן הכנה: </strong> 90 דקות | <strong> זמן עבודה: </strong>30 דקות </div>
+                <div class="browniesicons"> <span class="material-icons">restaurant_menu</span> <strong>רמת קושי: </strong>כולם יכולים </div>
+                <div class="browniesicons"> <span class="material-icons">star</span>  <strong>דירוג: </strong> 5/5 </div>
+            </section>
+            <div id="rating">
+                <p id="rank"><b>דרגו את המנה:</b></p>
+                <input type="radio" name="star" id="star5" /><label for="star5"></label>
+                <input type="radio" name="star" id="star4" /><label for="star4"></label>
+                <input type="radio" name="star" id="star3" /><label for="star3"></label>
+                <input type="radio" name="star" id="star2" /><label for="star2"></label>
+                <input type="radio" name="star" id="star1" /><label for="star1"></label>
+            </div>
+            <br />
+            <section class="galleryNproducts">
+
+                <div id="products">
+                    <fieldset>
+                        <legend><strong>מצרכים - מתאים לתבנית מרובעת של 20*20 ס"מ</strong> </legend>
+                        <input type="checkbox" /> 90 גרם חמאה רכה <br />
+                        <input type="checkbox" /> 170 גרם שוקולד מריר <br />
+                        <input type="checkbox" /> רבע כוס אבקת קקאו <br />
+                        <input type="checkbox" /> 3/4 כוס קמח לבן <br />
+                        <input type="checkbox" /> רבע כפית אבקת אפייה <br />
+                        <input type="checkbox" /> קורט מלח <br />
+                        <input type="checkbox" /> 1 כוס סוכר <br />
+                        <input type="checkbox" /> 2 ביצים גדולות <br />
+                        <input type="checkbox" /> 2 כפיות תמצית וניל <br />
+                    </fieldset>
+                </div>
+
+                <div class="gallery">
+
+                    <!-- התמונות הגדולות והמספרים -->
+                    <div class="bigPhoto">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="images/brownies gallery/1ingredients.jpeg">
+                    </div>
+
+                    <div class="bigPhoto">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="images/brownies gallery/1bain marie.png">
+                    </div>
+
+                    <div class="bigPhoto">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="images/brownies gallery/2eggs n sugar.jpg">
+                    </div>
+
+                    <div class="bigPhoto">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="images/brownies gallery/3choc n flour.jpeg">
+                    </div>
+
+                    <div class="bigPhoto">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="images/brownies gallery/4pourbatter.jpg">
+                    </div>
+
+                    <div class="bigPhoto">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="images/brownies gallery/5finished.jpeg">
+                    </div>
+
+
+                    <!-- כפתורים קודם והבא -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10095;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10094;</a>
+
+                    <!-- טקסט התיאור לתמונה -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <!-- התמונות הקטנות -->
+                    <div class="row">
+                        <div class="column">
+                            <img class="smallPhoto cursor" src="images/brownies gallery/1ingredients.jpeg" style="width:100%" onclick="currentPhoto(0)" alt="המצרכים למתכון">
+                        </div>
+                        <div class="column">
+                            <img class="smallPhoto cursor" src="images/brownies gallery/1bain marie.png" style="width:100%" onclick="currentPhoto(1)" alt="הרתחת המים בסיר והמסת השוקולד">
+                        </div>
+                        <div class="column">
+                            <img class="smallPhoto cursor" src="images/brownies gallery/2eggs n sugar.jpg" style="width:100%" onclick="currentPhoto(2)" alt="הקצפת הסוכר, הביצים ותמצית הוניל">
+                        </div>
+                        <div class="column">
+                            <img class="smallPhoto cursor" src="images/brownies gallery/3choc n flour.jpeg" style="width:100%" onclick="currentPhoto(3)" alt="ערבוב התערובות">
+                        </div>
+                        <div class="column">
+                            <img class="smallPhoto cursor" src="images/brownies gallery/4pourbatter.jpg" style="width:100%" onclick="currentPhoto(4)" alt="שפיכת הבלילה לתבנית">
+                        </div>
+                        <div class="column">
+                            <img class="smallPhoto cursor" src="images/brownies gallery/5finished.jpeg" style="width:100%" onclick="currentPhoto(5)" alt="בתיאבון!">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="preparation">
+                <h3>אופן ההכנה</h3>
+
+                <ol>
+                    <li>מחממים תנור לחום של 180 מעלות.</li>
+                    <li>משמנים את התבנית בחמאה ומניחים עליה נייר אפייה.</li>
+                    <li>שופכים לקערת חסינת חום את החמאה, השוקולד והקקאו.</li>
+                    <li>מרתיחים מים בסיר- כשהם מגיעים לרתיחה מניחים מעל הסיר את הקערה עד להמסה מוחלטת וטחידה של כל החומרים.</li>
+                    <li>מערבבים בקערה נפרדת את הקמח, אבקת אפייה והמלח ומניחים בצד.</li>
+                    <li>מקציפים את הסוכר, הביצים ותמצית הווניל בעזרת מיקסר חשמלי במהירות בינונית עד שמתקבלת תערובת בהירה , למשך 4 דקות בערך.</li>
+                    <li>מוסיפים את תערובת השוקולד המומס וממשיכים לערבב בעזרת מיקסר עד לקבלת תערובת אחידה. בהמשך מוסיפים את תערובת הקמח ומערבבים שוב עד שנטמעת בתערובת. </li>
+                    <li>שופכים את בלילת העוגה לתבנית ומיישרים אותה בעזרת מרית. אופים 20-25 דקות , עד שקיסם ננעץ במרכז העוגה יוצא עם מעט פירורים לחים עליו.</li>
+                    <li>מוציאים את התבנית מהתנור ומצננים באופן מוחלט על רשת.</li>
+                </ol>
+            </section>
+        </article>
+        <a href="#headerSec"><span id="scrollup" class="material-icons">keyboard_arrow_up</span></a>
+    </main>
+    <footer aria-label="פוטר">
+        <a href="index.html"><img id="footerlogo" src="images/general/logo.png" alt="לוגו - מעבר לדף בית" /></a>
+        <nav id="footernav">
+            <ul class="textfooter">
+                <li id="contactbutton"><a href="contactUs.html">צור קשר</a></li>
+                <li id="sitemapbutton"><a href="sitemap.html">מפת אתר</a></li>
+                <li id="aboutusbutton"><a href="about.html">אודות</a></li>
+            </ul>
+        </nav>
+
+        <p id="cc">
+            What the FUDGE©  2022
+            אתר השוקולד (הלא) רשמי של ישראל
+        </p>
+    </footer>
+</body>
+</html>

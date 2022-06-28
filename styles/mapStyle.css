@@ -1,0 +1,55 @@
+﻿main{
+    padding: 50px 0px;
+}
+h1 {
+    top: 350px;
+}
+a {
+    color: #734b3b;
+}
+a:hover {
+    color:#a47a69;
+}
+
+a.notActive {
+    color: gray;
+    text-decoration:none;
+}
+#mapheaderBG {
+    height:400px;
+    background-image: url('../images/other/sitemapbg.jpeg');
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: #2a0807;
+}
+.mainmap {
+    margin-bottom: 200px;
+    margin-right: 175px;
+}
+.mainmap>li{
+    display: inline-block;
+    float: right;
+}
+.mainmap > li {
+    width: 346px;
+}
+
+.mainmap > li > ul > li {
+    list-style-image: url('../images/general/listsmall.png');
+    font-size: 20px;
+    line-height:2;
+}
+h2 {
+    color: #2a0807;
+    margin-bottom: 15px;
+    font-size: 22px;
+    position:relative;
+    right: 18px;
+}
+
+footer {
+    clear:right;
+}

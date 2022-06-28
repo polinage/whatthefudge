@@ -1,0 +1,225 @@
+﻿@font-face {
+    font-family: 'Nehama';
+    src: url('../fonts/Nehama.ttf') format('truetype');
+    src: url('../fonts/Nehama.eot') format('embedded-opentype');
+
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+    src: url('../fonts/Rubik-VariableFont_wght.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'VintageKing-vmXJ4';
+    src: url('../fonts/VintageKing-vmXJ4.ttf') format('truetype');
+}
+
+body {
+    direction: rtl;
+    background-image: url('../images/general/BACKGROUND.png');
+    background-repeat: repeat;
+    background-size: 50vw;
+    margin: 0 auto;
+    
+}
+body * {
+    font-family: 'Rubik';
+}
+
+html {
+    scroll-behavior:smooth;
+}
+main, header, footer {
+    width: 1280px;
+    margin: 0 auto;
+}
+main, footer {
+    background-color: white; 
+}
+
+header {
+    background-color: white;
+
+}
+
+#mainnav {
+    position: fixed;
+    width: 1280px;
+    height: 145px;
+    z-index: 6;
+    background-image: url('../images/general/nav.png');
+}
+
+#logo {
+    width: 110px;
+    position: absolute;
+    top: 15px;
+    right: 75px;
+}
+
+#mainnav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    right: 330px;
+}
+#mainnav li a {
+    display: inline-block;
+    float: right;
+    
+}
+
+#mainnav ul li a {
+    display: block;
+    color: white;
+    font-size: 16px;
+    width: 150px;
+    height: 30px;
+    padding-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+#mainnav ul li ul {
+    display: none;
+    background-color: #F1EDE3;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 48px;
+    box-shadow: rgb(33 6 6 / 0.50) 3px 4px 6px;
+    border-radius: 0px 0px 13px 13px;
+}
+#chocoacademy > ul {
+    right: 150px;
+    background-image: url('../images/general/innernav.png');
+    background-position-x: 630px;
+    background-repeat: repeat-x;
+}
+#recipes > ul {
+    right: 300px;
+    background-image: url('../images/general/innernav.png');
+    background-position-x: 780px;
+    background-repeat: repeat-x;
+}
+#chocolatetypes > ul {
+    right: 450px;
+    background-image: url('../images/general/innernav.png');
+    background-position-x: 930px;
+    background-repeat: repeat-x;
+}
+#mainnav ul li ul a {
+        color: rgb(33 6 6 );
+        
+}
+#mainnav ul li a:hover {
+    color: #d8d1bd;
+}
+#mainnav ul li ul li:hover a {
+    color: #8b5e5d;
+}
+
+#mainnav ul li:hover ul {
+    display: block;
+    width: 150px;
+}
+.notActive{
+    cursor: not-allowed;
+}
+
+
+
+#bread {
+    position: relative;
+    top: 150px;
+    right: 60px;
+}
+#bread ol li {
+    display: inline-block;
+}
+
+#bread ol li:after {
+    content: ">";
+}
+
+#bread ol li:last-child:after {
+    content: "";
+}
+
+footer {
+    height: 353px;
+    width: 1280px;
+    position:relative;
+    background-image: url('../images/general/footerbg.png');
+}
+footer #footerlogo {
+    width: 200px;
+    position:absolute;
+    top: 50%; 
+    right: 106px;
+}
+#footernav ul {
+    list-style: none;
+    position: relative;
+    top: 168.5px;
+    right: 400px;
+}
+#footernav li a {
+    display: inline-block;
+    float: right;
+    
+}
+#footernav ul li a {
+    display: block;
+    color: white;
+    font-size: 19px;
+    width: 200px;
+    height: 30px;
+    padding-top: 30px;
+    text-decoration: none;
+    text-align: center;   
+}
+
+#footernav ul li a:hover {
+    color: #d8d1bd;
+}
+
+footer p#cc {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    color: rgb(255 255 255 / 0.9);
+    font-size: 13px;
+}
+
+h1 {
+    font-family: 'Nehama';
+    font-size: 35pt;
+    position: relative;
+    top: 300px;
+    right: 100px;
+}
+
+
+
+#scrollup {
+    background-color: #411215;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+    z-index: 7;
+    display:none;
+    
+}
+
+
+#mainnav ul li a.currentPage, #footernav ul li a.currentPage {
+    text-decoration: underline;
+    
+}

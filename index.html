@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title> מה הפאדג' - דף הבית</title>
+    <meta name="description" content="דף הבית של אתר what the fudge" />
+    <meta name="keywords" content="פאדג, שוקולד, מתכונים עם שוקולד, חלב, מריר" />
+    <meta name="author" content="Stav Zipori, Polina Gershman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!--favicon-->
+    <link rel="icon" href="images/general/favicon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    
+    <!--icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="styles/indexStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript2.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav id="mainnav" aria-label="תפריט ראשי">
+            <a href="index.html"><img id="logo" src="images/general/logo.png" alt="לוגו - מעבר לדף בית" /></a>
+            <ul>
+                <li><a href="index.html" class="currentPage">דף הבית</a></li>
+                <li id="chocoacademy">
+                    <a href="#" class="notActive">אקדמיית השוקולד</a>
+                    <ul>
+                        <li><a href="#" class="notActive">הכנת השוקולד</a></li>
+                        <li><a href="#" class="notActive">עצי קקאו</a></li>
+                        <li><a href="#" class="notActive">מקצוע שוקולטייר</a></li>
+                        <li><a href="#" class="notActive">סגולות בריאותיות</a></li>
+                    </ul>
+                </li>
+                <li id="recipes">
+                    <a href="#" class="notActive">מתכונים</a>
+                    <ul>
+                        <li><a href="brownies.html">בראוניז</a></li>
+                        <li><a href="#" class="notActive">עוגות שוקולד</a></li>
+                        <li><a href="#" class="notActive">פרלינים</a></li>
+                        <li><a href="#" class="notActive">סופלה</a></li>
+                    </ul>
+                </li>
+                <li id="chocolatetypes">
+                    <a href="#" class="notActive">סוגי שוקולד</a>
+                    <ul>
+                        <li><a href="milkchoco.html">שוקולד חלב</a></li>
+                        <li><a href="#" class="notActive">שוקולד מריר</a></li>
+                        <li><a href="#" class="notActive">שוקולד לבן</a></li>
+                        <li><a href="#" class="notActive">שוקולד רובי</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="headerSec">
+            <img class="logo" src="images/general/mainlogo.png" alt="logo" />
+            <h1>אתר השוקולד ה(לא) רשמי של ישראל</h1>
+        </div>
+    </header>
+    <main class="homepage">
+
+        <section id="types">
+            <h2 class="secH2">סוגי השוקולד</h2>
+
+            <section class="chocotypes" id="darkchoc">
+                <div class="trapezoid dark top"></div>
+                <div class="trapezoid dark left"></div>
+                <div class="trapezoid dark right"></div>
+                <div class="trapezoid dark bottom"></div>
+                <img src="images/homepage/dark.png" alt="שוקולד מריר" />
+                <div class="info">
+                    <h3>שוקולד מריר</h3>
+                    <div class="chocoText">לרוב אינו מכיל רכיבי חלב. שוקולד מריר מכיל מוצקי קקאו, סוכר, לציטין ולעיתים ונילין, כאשר אחוז מוצקי הקקאו יהיה גבוה מ-35%. ככל שאחוז מוצקי הקקאו עולה, כך יחשב השוקולד לאיכותי יותר.</div>
+                    <a class="button notActive" href="#">קרא עוד</a>
+                </div>
+            </section>
+            <section class="chocotypes" id="milkchoc">
+                <div class="trapezoid milk top"></div>
+                <div class="trapezoid milk left"></div>
+                <div class="trapezoid milk right"></div>
+                <div class="trapezoid milk bottom"></div>
+                <img src="images/homepage/milk.png" alt="תמונה של שוקולד חלב" />
+                <div class="info">
+                    <h3>שוקולד חלב</h3>
+                    <div class="chocoText">מכיל מוצקי קקאו, סוכר, רכיבי חלב, לציטין ולעיתים ונילין. נחשב איכותי פחות משוקולד מריר. טעמו מתוק יותר והוא נתך על הלשון ביתר קלות.</div>
+                    <a class="button" href="milkchoco.html">קרא עוד</a>
+                </div>
+            </section>
+            <section class="chocotypes" id="whitechoc">
+                <div class="trapezoid white top"></div>
+                <div class="trapezoid white left"></div>
+                <div class="trapezoid white right"></div>
+                <div class="trapezoid white bottom"></div>
+                <img src="images/homepage/white.png" alt="שוקולד לבן"/>
+                <div class="info">
+                    <h3>שוקולד לבן</h3>
+                    <div class="chocoText">מכיל חמאת קקאו, סוכר, אבקת חלב, לציטין. אחוז מוצקי הקקאו בו נמוך (לרוב פחות מ-30%), בשל העדר עיסת קקאו. יש הגורסים כי שוקולד לבן אינו שוקולד כלל, מכיוון שאינו מכיל עיסת קקאו (שצבעה חום).</div>
+                    <a class="button notActive" href="#">קרא עוד</a>
+                </div>
+            </section>
+            <section class="chocotypes" id="rubychoc">
+                <div class="trapezoid ruby top"></div>
+                <div class="trapezoid ruby left"></div>
+                <div class="trapezoid ruby right"></div>
+                <div class="trapezoid ruby bottom"></div>
+                <img src="images/homepage/ruby.png" alt="שוקולד רובי"/>
+                <div class="info">
+                    <h3>שוקולד רובי</h3>
+                    <div class="chocoText"> מכיל מוצקי קקאו, סוכר, אבקת חלב. ייחודו הוא צבעו הוורדרד והטעם ה"פירותי" הטבעי שלו. השוקולד פותח על ידי חברת בארי קליבו והוצג לראשונה בשנת 2017. השוקולד התגלה במקרה לפני למעלה מעשור.</div>
+                    <a class="button notActive" href="#">קרא עוד</a>
+                </div>
+            </section>
+        </section>
+        <section id="academySec">
+            <h2 class="secH2">אקדמיית השוקולד</h2>
+            <div class="tickets">
+                <ul>
+                    <li>
+                        <section class="acaTicket" id="chocoMake">
+
+                            <h3>הכנת השוקולד</h3>
+                            <div class="overlayInfo">
+                                <p class="acaText">בואו ללמוד הכול על תהליך הכנת השוקולד, החל מפולי הקקאו ועד הטבלה!</p>
+                                <a href="#" class="button notActive">קרא עוד</a>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="acaTicket" id="cocoatrees">
+
+                            <h3>עצי הקקאו</h3>
+                            <div class="overlayInfo">
+                                <p class="acaText">מי גדל בג'ונגל במקום חם ולח? מוגלי, יחד עם עצי הקקאו!</p>
+                                <a href="#" class="button notActive">קרא עוד</a>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="acaTicket" id="chocolatier">
+
+                            <h3>מקצוע השוקולטייר</h3>
+                            <div class="overlayInfo">
+                                <p class="acaText">החלום של כל ילד ומבוגר! בואו ללמוד על המקצוע הכי מתוק בתעשייה</p>
+                                <a href="#" class="button notActive">קרא עוד</a>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="acaTicket" id="healthy">
+
+                            <h3>סגולות בריאותיות</h3>
+                            <div class="overlayInfo">
+                                <p class="acaText">יש סיבה למשפט: <br /> a <strong>CHOCOLATE</strong> a day, keeps the doctor <strong>AWAY</strong></p>
+                                <a href="#" class="button notActive">קרא עוד</a>
+                            </div>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="recipesSec">
+            <h2 class="secH2">מתכונים</h2>
+            <div class="tickets">
+                <ul>
+                    <li>
+                        <section class="recipe" id="brownies">
+                            <img src="images/homepage/brownies2.jpeg" alt="בראוניז" />
+                            <h3>בראוניז</h3>
+                            <p class="recipeText">בראוניז רכים ונימוחים עם עונג שרק שוקולד יכול לספק!</p>
+                            <div class="recipeDetails">
+                                <div class="decorative">
+                                    <p class="recipeLevel">קל | חצי שעה</p>
+                                    <div class="stars">
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+
+                                    </div>
+                                </div>
+                                <a class="button" href="brownies.html">למתכון</a>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="recipe" id="chocoCake">
+                            <img src="images/homepage/cake.jpeg" alt="עוגת שוקולד" />
+                            <h3>עוגת שוקולד</h3>
+                            <div class="recipeText">עוגה נימוחה במרקם שוקולדי שמיימי וציפוי שמנתי עשיר.</div>
+                            <div class="recipeDetails">
+                                <div class="decorative">
+                                    <p class="recipeLevel">בינוני | חצי שעה</p>
+                                    <div class="stars">
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                    </div>
+                                </div>
+                                <a class="button notActive" href="#">למתכון</a>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="recipe" id="perlinim">
+                            <img src="images/homepage/pralines.jpeg" alt="פרלינים" />
+                            <h3>פרלינים</h3>
+                            <div class="recipeText">פינוק קטן ומושחת, ביס וחצי של אושר צרוף.</div>
+                            <div class="recipeDetails">
+                                <div class="decorative">
+                                    <p class="recipeLevel">קשה | שעתיים</p>
+                                    <div class="stars">
+                                        <span class="material-icons">star_half</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                    </div>
+                                </div>
+                                <a class="button notActive" href="#">למתכון</a>
+                            </div>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="recipe" id="souffle">
+                            <img src="images/homepage/souffle.jpeg" alt="סופלה" />
+                            <h3>סופלה</h3>
+                            <div class="recipeText">סופלה שוקולד מפנק, חם וטעים במיוחד.</div>
+                            <div class="recipeDetails">
+                                <div class="decorative">
+                                    <p class="recipeLevel">קל | חצי שעה</p>
+                                    <div class="stars">
+                                        <span class="material-icons">star_border</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                        <span class="material-icons">star</span>
+                                    </div>
+                                </div>
+                                <a class="button notActive" href="#">למתכון</a>
+                            </div>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="notActive">למתכונים נוספים ></a>
+        </section>
+        <a href="#headerSec"><span id="scrollup" class="material-icons">keyboard_arrow_up</span></a>
+
+    </main>
+    <footer aria-label="פוטר">
+        <a href="index.html"><img id="footerlogo" src="images/general/logo.png" alt="לוגו - מעבר לדף בית" /></a>
+        <nav id="footernav">
+            <ul class="textfooter">
+                <li id="contactbutton"><a href="contactUs.html">צור קשר</a></li>
+                <li id="sitemapbutton"><a href="sitemap.html">מפת אתר</a></li>
+                <li id="aboutusbutton"><a href="about.html">אודות</a></li>
+            </ul>
+        </nav>
+
+        <p id="cc">
+            What the FUDGE©  2022
+            אתר השוקולד (הלא) רשמי של ישראל
+        </p>
+    </footer>
+</body>
+</html>
